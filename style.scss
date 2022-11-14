@@ -10,7 +10,7 @@ $vinho : rgb(44, 0, 40);
     // border: 1px solid red;
     height: 150px;
     width: 100%;
-    background-color:$vinho;
+    background-color:rgb(24, 22, 22);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,9 +23,9 @@ $vinho : rgb(44, 0, 40);
         button{
             width: 180px;
             height: 50px;
-            border-radius: 20px;
+            border-radius: 30px;
             border: none;
-            background-color: rgba(78, 2, 72, 0.541);
+            background-color: rgba(54, 54, 54, 0.63);
             transition: 0.5s;
 
 
@@ -40,11 +40,15 @@ $vinho : rgb(44, 0, 40);
               }a:hover{
                 transition: 0.5s;
                 letter-spacing: 1px;
+            font-size: 14px;
+
                 }
             
         }button:hover{
             border-radius: 0px;
             transition: 0.5s;
+            box-shadow: 2px  2px 2px 2px #f165c3;
+
 
         }
     }
@@ -95,8 +99,41 @@ $vinho : rgb(44, 0, 40);
 // Seção 1 //////////////////////
 
 .section1{
-    height: 920px;
-    // border: 1px solid red;
-    background-image: url(img/fundo1.png);
+    height: 840px;
+    border: 1px solid red;
+    background-image: url(img/logoteste.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+    .box-container{
+    border: 1px solid red;
+    margin-left: 60px;
+    width: 1000px;
+    height: 300px;
+
+
+        h1{
+            font-size: 100px;
+            color: #fff;
+            text-shadow: 0.2em 0.2em 0.2em black;
+         font-family: 'Poppins', sans-serif;
+            transition: 1s;
+         span{
+            font-weight: 100;
+            font-size: 70px;
+         }
+
+
+
+        }h1:hover{
+            text-shadow: 0 2px 4px #f165c3;
+            transition: 1s;
+            color: #d38ae9 ;
+
+        }
+    }
 
 }
