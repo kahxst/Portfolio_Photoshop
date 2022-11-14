@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(44, 0, 40);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu .proj {
+  text-align: center;
+}
+.menu .proj button {
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(78, 2, 72, 0.541);
+  transition: 0.5s;
+}
+.menu .proj button a {
+  text-decoration: none;
+  color: rgb(231, 221, 221);
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+  font-weight: 100;
+}
+.menu .proj button a:hover {
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+.menu .proj button:hover {
+  border-radius: 0px;
+  transition: 0.5s;
+}
+.menu .img {
+  height: 150px;
+  width: 250px;
+  text-align: center;
+}
+.menu .img img {
+  width: 50%;
+}
+.menu .box {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu .box i {
+  margin-left: 20px;
+  color: rgb(207, 207, 207);
+  transition: 0.5s;
+  font-size: 22px;
+}
+.menu .box .roxo:hover {
+  color: purple;
+  transition: 0.5s;
+}
+.menu .box .azul:hover {
+  color: rgb(0, 83, 238);
+  transition: 0.5s;
+}
+.menu .box .twi:hover {
+  color: rgb(0, 154, 214);
+  transition: 0.5s;
+}
+
+.section1 {
+  height: 920px;
+  background-image: url(img/fundo1.png);
+}/*# sourceMappingURL=style.css.map */
